@@ -1,0 +1,16 @@
+name = "UnitfulCorrelations"
+uuid = "0cc60a5a-b0e5-4da3-ae2a-6e3d3c47022e"
+authors = ["aefarrell <allanf@protonmail.com> and contributors"]
+version = "0.1.0"
+
+[deps]
+Unitful = "1986cc42-f94f-5a68-af5c-568840ba703d"
+
+[compat]
+julia = "1"
+
+[extras]
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+[targets]
+test = ["Test"]
